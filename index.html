@@ -1,103 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body style="background-color:rgb(156, 144, 130)">
-    
-    <h1 style="text-align: center;"> <span style="font-family: Arial"><p style="font-size: 50px;">Moja strona</span></h1>
-    
-        <section>
-            <h2 span style="font-family: Arial"><hn title="menu"></span>Menu</h2></hn>
-            <nav class="main-navigation">
-                <ul class="menu list">
-                    <li><a href="about us">about us</a></li>
-                    <li><a href="#skills">umiejętności</a></li>
-                    <li><a href="#portfolio">portfolio</a></li>
-                    <li><a href="#contact">kontakt</a></li>
-                </ul>
-            </nav>
-            </section>
-            
 
-            <section>
-                <header><span style="font-family: Arial"><p style="font-size: 30px;">About us</span></header>
-                    <p style="text-align: center;"><hn title="about us"> Anton & Irene is a design agency based in Manhattan.Why are they a distinctive web presence? Because their page takes parallax scrolling to the next level.The snowy effects, bold colors, and quirky visuals create a truly captivating</p></hn>
-            </section>
+    <h1 style="text-align: center;"> Moja strona
 
-            <section>
+    </h1>
 
-                <header><span style="font-family: Arial"><p style="font-size: 30px;"><hn title="skills">Skills</span></header></hn>
-                    <ul class="my skills">
-                       <div>    
-                        <li>Communication</li>
-                       </div> 
-                        <div>
-                        <li>Teamwork</li>
-                          </div>
-                       <div>
-                        <li>Self-management</li>
-                    </div> 
-                        <div>
-                            <li>Problem solving</li>
-                        </div>
-                    </ul>
+    <section>
+        <h2 style="font-family: Arial">
+            Menu
+        </h2>
+        <nav class="main-navigation">
+            <ul class="menu list">
+                <li><a href="#about-us">about us</a></li>
+                <li><a href="#my-skills">umiejętności</a></li>
+                <li><a href="#portfolio">portfolio</a></li>
+                <li><a href="#contact">kontakt</a></li>
+            </ul>
+        </nav>
+    </section>
 
-            </section>
 
-            <section>
+    <section id="about-us">
+        <header>
+            <h2 style="font-size: 30px;">About us</h2>
+        </header>
+        <p style="text-align: center;">
+            Anton & Irene is a design agency based in Manhattan.Why are they a distinctive web
+            presence? Because their page takes parallax scrolling to the next level.The snowy effects, bold colors,
+            and quirky visuals create a truly captivating
+        </p>
 
-                <header><span style="font-family: Arial"><p style="font-size: 30px;">Portfolio</span></header>
-                   <div class="portfolio-item">
-                    <p>First project</p>
-                    <hn title="kwiatek"><img src="kwiatek.jpg" alt="kwiatek" width="250" height="200"></hn>
-                   </div>
-                   <div class="portfolio-item">
-                    <p>Second project</p>
-                    <hn title="słońce"> <img src="slonce.jpg" alt="słońce" width="250" height="200"></hn>
-                   </div>
-                   <div class="portfolio-item">
-                    <p>Third project</p>
-                    <hn title="chmura"><img src="chmura.jpg" alt="chmurka" width="250" height="200"></hn>
-                   </div>
-            </section>
+    </section>
 
-            <section>
+    <section id="my-skills">
 
-                <header><span style="font-family: Arial"><p style="font-size: 30px;">Jan Kowalski</span></header>
-                 
-                    
-                    <form action="/action_page.php">
-                    <table style="background-color: rgb(69, 62, 62)">
-                        <tr>
-                        <td>Imię i nazwisko:</td><td><input type="text" name="imie" required></td>
-                    </tr>
-                    <tr>
-                        <td>Treść wiadomości:</td><td><input type="text" name="nazwisko" required></td>
-                    </tr>
-                    <tr>
-                        <br>
-                        <td colspan="2" style="text-align: center"><br>
-                            <input type="submit" value="Wyślij">
-                           
-                        </td>
-                    </tr>
-                    </table>
-                    </div></form>
-                   
-                   <div>
-                    <footer span style="font-family:Courier New"> phone number: 123456
-                    <br>
-                    email:jankowalski.pl
-                 </footer>
-                </div>
-                </section>
+        <header>
+            <h2 style="font-size: 30px;">
+                Skills</h2>
+        </header>
+        <div class="skill">
+            <h3>Skill</h3>
+            <p>jakies zdanie</p>
+        </div>
+        <div class="skill">
+            <h3>Skill</h3>
+            <p>jakies zdanie</p>
+        </div>
+        <div class="skill">
+            <h3>Skill</h3>
+            <p>jakies zdanie</p>
+        </div>
+        <div class="skill">
+            <h3>Skill</h3>
+            <p>jakies zdanie</p>
+        </div>
+    </section>
+
+    <section>
+
+        <header>
+            <h2 style="font-size: 30px;">Portfolio</h2>
+        </header>
+        <div class="portfolio-item">
+            <p>First project</p>
+            <h3 title="kwiatek"><img src="kwiatek.jpg" alt="kwiatek" width="250" height="200"></h3>
+        </div>
+        <div class="portfolio-item">
+            <p>Second project</p>
+            <h3 title="słońce"> <img src="slonce.jpg" alt="słońce" width="250" height="200"></h3>
+        </div>
+        <div class="portfolio-item">
+            <p>Third project</p>
+            <h3 title="chmura"><img src="chmura.jpg" alt="chmurka" width="250" height="200"></h3>
+        </div>
+    </section>
+
+    <section>
+
+        <header>
+            <h2 style="font-size: 30px;">Jan Kowalski</h2>
+        </header>
+
+
+        <form action="/action_page.php">
+
+
+            <label for="name">Imię i nazwisko:</label>
+            <input id="name" col="50" row="50" type="text" name="imie" required>
+
+
+            <label for="surname">Treść wiadomości:</label>
+            <input id="surname" type="text" name="nazwisko" required>
+
+
+            <br>
+            <br>
+
+            <input type="submit" value="Wyślij">
+
+        </form>
+
+
+        <footer span style="font-family:Courier New"> phone number: 123456
+            <br>
+            email:jankowalski.pl
+        </footer>
+
+    </section>
 
 
 </body>
+
 </html>
 
-<input type="text" name="nazwisko" placeholder="Kowalski" required />
